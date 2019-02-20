@@ -37,6 +37,6 @@ double mortgage::getmonthlyPayment()
 //This member function calculate the total payment the users would be paying 
 double mortgage::gettotalPayment()
 {
-	return  (monthlyPayment*years);
+	return  (monthlyPayment*years*12);
 }
 
